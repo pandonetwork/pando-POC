@@ -1,13 +1,17 @@
 {
   "name": "@wespr/pando",
   "version": "0.1.0",
-  "description": "A PoC for a distributed versionning system based on IPFS and AragonOS",
+  "description": "A PoC for a distributed versioning system based on IPFS and AragonOS",
   "main": "src/index.js",
   "bin": {
     "pando": "./src/index.js"
   },
   "directories": {
     "test": "test"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/wespr/pando.git"
   },
   "dependencies": {
     "colors": "^1.1.2",
