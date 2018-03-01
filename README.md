@@ -14,5 +14,5 @@
 ## Installation
 
 ```
-npm install -g @wespr/pando
+sudo npm install -g @wespr/pando
 ```
