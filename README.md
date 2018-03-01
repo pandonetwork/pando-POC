@@ -11,6 +11,12 @@
   This repository contains a PoC versioning system based on IPFS and AragonOS.
 </p>
 
+## Notes
+
+If you try to bundle this program yourself you may end up in errors due to this issue:
+
+For now you need to tweak the scrypt src file yourself
+
 ## Installation
 
 ```
