@@ -1,6 +1,6 @@
 {
   "name": "@wespr/pando",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A PoC for a distributed versioning system based on IPFS and AragonOS",
   "main": "./src/index.js",
   "bin": {
