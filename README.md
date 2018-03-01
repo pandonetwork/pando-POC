@@ -7,9 +7,7 @@
   <br>
 </h1>
 
-<p align="center">
-  A PoC versioning system based on [IPFS](https://ipfs.io) and [AragonOS](https://github.com/aragon/aragonOS).
-</p>
+A PoC versioning system based on [IPFS](https://ipfs.io) and [AragonOS](https://github.com/aragon/aragonOS).
 
 ## Notes
 
