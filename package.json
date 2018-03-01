@@ -38,8 +38,7 @@
   },
   "scripts": {
     "test": "mocha",
-    "lint": "./node_modules/.bin/eslint src",
-    "build": "webpack src/index.js --config scripts/webpack.config.js --output dist/pando.js "
+    "lint": "./node_modules/.bin/eslint src"
   },
   "author": "Olivier Sarrouy <olivier@wespr.co>",
   "license": "MIT"
