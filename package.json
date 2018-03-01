@@ -1,0 +1,41 @@
+{
+  "name": "@wespr/pando",
+  "version": "0.1.0",
+  "description": "A PoC for a distributed versionning system based on IPFS and AragonOS",
+  "main": "src/index.js",
+  "bin": {
+    "pando": "./src/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "commander": "^2.14.1",
+    "eth-ens-namehash": "^2.0.8",
+    "inquirer": "^5.1.0",
+    "ipfs-api": "^18.1.1",
+    "js-sha3": "^0.7.0",
+    "jsonfile": "^4.0.0",
+    "mocha": "^5.0.1",
+    "ora": "^2.0.0",
+    "rmdir": "^1.2.0",
+    "touch": "^3.1.0",
+    "truffle-contract": "^3.0.3",
+    "web3": "^1.0.0-beta.30"
+  },
+  "devDependencies": {
+    "eslint": "^4.18.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint src"
+  },
+  "author": "Olivier Sarrouy <olivier@wespr.co>",
+  "license": "MIT"
+}
