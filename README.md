@@ -19,6 +19,14 @@ This software is in a **very** alpha stage and is not meant to be used in produc
 
 ## Installation
 
+For now the ```js-ipfs-api``` does not handle ```DAG```. So you need to run a local ```ipfs``` node on your machine. Install ipfs and launch the daemon.
+
+```
+ipfs daemon
+```
+
+Then install pando.
+
 ```
 npm install -g @wespr/pando
 ```
